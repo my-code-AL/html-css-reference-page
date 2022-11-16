@@ -1,0 +1,126 @@
+body{
+    background-color: olive;
+}
+p{
+    font-family: 'Arial Narrow';
+    color: beige;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: scroll;
+}
+a{
+    color:blue;
+    text-decoration: underline;
+}
+a:visited{
+    color:#6e2df1;
+}
+a:hover{
+    color: darkblue;
+}
+.side-note{
+    margin-top: 50px;
+    font-size: medium;
+    font-style: italic bold;
+    font-family: 'Arial Narrow';
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(194, 248, 112);
+}
+h3{
+    font-family: 'Arial Narrow';
+    color: black;
+    font-style: bold;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 2;
+}
+.padding h3{
+    background-color: rgb(140, 173, 14);
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.border h3{
+    background-color: rgb(110, 173, 14);
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.margin h3{
+    background-color: rgb(70, 173, 14);
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.picture img{
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
+   
+    margin-top: 30px;
+   
+}
+.picture figcaption{
+    text-align: center;
+    font-family: 'Arial Narrow Bold', serif;
+    font-size: 16px;
+   
+}
+.title h2{
+    text-align: center;
+    font-family: 'Cedarville Cursive', serif;
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 30px;
+    color: beige;
+}
+.title h4{
+    text-align: center;
+    font-family: 'Rubik Bubbles', serif;
+    font-size: 17px;
+    font-style: bold;
+    margin-bottom: 60px;
+    color: beige;
+}
+.html h2{
+    text-align: center;
+    font-family: 'Cedarville Cursive', serif;
+    font-size: 30px;
+    font-style: bold;
+    margin-bottom: 30px;
+    color: beige;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgb(177, 177, 155);
+  }
+  table{
+    width: 100%;
+  }
+  th{
+    font-family: monospace;
+    text-align: center;
+  }
+  footer{
+    font-family: "Times New Roman";
+    margin: 0 auto;
+    text-align: center;
+    color: beige;
+  }
+  footer p{
+    margin-bottom: 30px;
+  }
